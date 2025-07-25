@@ -1,0 +1,60 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+financial_data/logs/
+
+# Python virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Database files
+*.sqlite3
+finance_chat.db
+financial_data/finance_chat.db
+
+# FAISS/vector store
+vector_store/
+vectorstore/
+*.pkl
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# Node.js dependencies (if any)
+node_modules/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.tmp
+
+# IDE/project files
+.idea/
+*.iml
+
+# PDF/processed data (if not needed in repo)
+financial_data/pdfs/
+financial_data/processed/
+
+# Remove specific file already present
+vectorstore/db_chroma/chroma.sqlite3vectorstore/db_chroma/chroma.sqlite3
